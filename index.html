@@ -21,8 +21,20 @@
                 <button class="btn btn-accent" onclick="handleSearch()">Search</button>
             </div>
         </section>
+        
+        <!-- phone container after clicking search -->
         <section>
+            <!-- data loading spinner -->
+            <div id="loading-spinner" class="text-center my-20 hidden">
+                <span class="loading loading-infinity loading-lg"></span>
+            </div>
+
             <div id="phones-container" class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            </div>
+
+            <!-- show all button -->
+            <div id="show-all-container" class="hidden mt-5 text-center">
+                <button class="btn btn-secondary">Show All</button>
             </div>
         </section>
     </main>
